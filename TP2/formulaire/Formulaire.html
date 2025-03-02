@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Formulaire.css">
+</head>
+<body>
+    
+    
+    <form>
+        <h1>
+            <h1>formulaire</h1>
+        </h1>
+        <div class="form-group">
+        <label>nom</label>
+        <input type="text" name="nom" id="name" required> 
+        <label>prenom</label>
+        <input type="text" name="prenom" required> 
+        </div>
+        
+        <br>
+        <br>
+        <label>sujet</label>
+        <input type="text" name="sujet" class="underlined-imput"> 
+        
+        <br>
+        <br>
+        <label>description</label>
+        <textarea name="description" id="description" class="underlined-imput"></textarea>
+        
+        <br>
+        <br>
+        <label>encadrant</label>
+        <select name="encadrant" class="underlined-select" required>
+            <option value="1">encadrant1</option>
+            <option value="2">encadrant2</option>
+            <option value="3">encadrant3</option>
+        </select>
+        
+        <br>
+        <br>
+        <label>filiere</label>
+        <select name="filiere" id="filiere" class="underlined-select" required>
+            <option value="GI">GI</option>
+            <option value="GE">IID</option>
+            <option value="GE">MGSI</option>
+            <option value="GE">IRIC</option>
+            <option value="GE">GE</option>
+            <option value="GE">GPEE</option>
+        </select>
+        
+        <br>
+        <br>
+        <input type="submit" value="envoyer">
+        <input type="button" value="annuler">
+        
+    </form>
+</body>
+</html>

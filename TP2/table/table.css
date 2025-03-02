@@ -1,0 +1,15 @@
+.paire{
+    background-color: green;
+
+    }
+
+.impaire{
+    background-color: red;
+}
+td , th{
+    
+    border-color: black;
+    border:1px solid black;
+
+}
+
