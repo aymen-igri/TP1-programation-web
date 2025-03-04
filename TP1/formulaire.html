@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Formulaire.css">
+</head>
+<body>
+    
+    
+    <form>
+        <h1>
+            <h1>formulaire</h1>
+        </h1>
+        <div class="form-group">
+        <label>Nom</label>
+        <input type="text" name="nom" id="name" required> 
+        <label>Prenom</label>
+        <input type="text" name="prenom" required> 
+        </div>
+        
+        <br>
+        <br>
+        <label>Nom du professeur</label>
+        <select name="encadrant" class="underlined-select" required>
+            <option value="1">Pr. Omari</option>
+            <option value="2">Pr. Tissir</option>
+            <option value="3">Baghdadi S.</option>
+            <option value="3">Pr. Boukhlet </option>
+        </select>   
+        
+        <br>
+        <br>
+        <label>Description</label>
+        <textarea name="description" id="description" class="underlined-imput"></textarea>
+        
+        <br>
+        <br>
+        <input type="submit" value="envoyer">
+        <input type="button" value="annuler">
+        
+    </form>
+</body>
+</html>

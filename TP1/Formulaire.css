@@ -1,0 +1,19 @@
+h1{
+    margin-bottom: 20px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:  darkslateblue;
+    color: white;
+   
+}
+form{
+    text-align: center;
+}
+input{outline: none;}
+input:focus{border:2px solid red}
+
