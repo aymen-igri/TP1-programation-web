@@ -1,0 +1,126 @@
+.head{
+    display: flex;
+    position: relative;
+    left: 60px;
+    
+}
+
+.head_text{
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    color: #525352;
+}
+
+.head_text_pos{
+    position: relative;
+    bottom: 20px;
+}
+
+.head_info{
+    margin-left: 15px;
+    color: #525352;
+}
+
+a{
+    font-size: 30px;
+}
+.icons{
+    position: relative;
+    margin-left: 22px;
+    margin-right: 5px;
+    top:5px;
+}
+.span_name{
+    font-size: 150px;
+}
+
+.img_h{
+    border: solid 10px #525352;
+    border-radius: 300px;
+    transition: filter 0.5s ease;
+}
+
+.img_h:hover{
+    filter: brightness(70%);
+}
+.title{
+    color: #525352;
+}
+
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+
+}
+.span_ti{
+    font-weight: bold;
+}
+
+div{
+    animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+    from {
+        transform: translateX(-150px);
+      }
+      to {
+        transform: translateX(0px);
+      }
+  }
+button{
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+    box-shadow: #525352;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: black;
+    
+}
+
+body.dark{
+    background-color: black;
+    color:white
+}
+
+
+/* Existing CSS */
+
+
+
+body.dark .title {
+    color: white;
+}
+
+body.dark .head_text {
+    color: white;
+}
+
+body.dark .head_info {
+    color: white;
+}
+
+body.dark a {
+    color: white;
+}
+
+body.dark .img_h {
+    border-color: white;
+}
+
+body.dark button {
+    background-color: black;
+    color: white;
+}
+
+body.dark button:hover {
+    background-color: white;
+    color: black;
+}
