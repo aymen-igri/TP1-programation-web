@@ -1,0 +1,24 @@
+table{
+    border: solid 1px black;
+    position: relative;
+    top: auto;
+    left: 35%;
+    
+}
+
+th,td{
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.verifier{
+    display: block;
+    margin: 40px auto;
+}
+
+.correct{
+    color: green;
+}
+.wrong{
+    color: red;
+}
